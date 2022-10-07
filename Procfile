@@ -1,0 +1,1 @@
+web: uvicorn app.main.paa --host=0.0.0.0 --port=${PORT:-5000}
